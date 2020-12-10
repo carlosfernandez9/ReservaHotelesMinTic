@@ -1,0 +1,63 @@
+{
+	"info": {
+		"_postman_id": "c33a16ab-294d-4507-805f-11764694004a",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"city\": \"Barranquilla\",\r\n    \"isDeluxe\": \"True\",\r\n    \"maxPrice\": 1000000           \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://reservahotelesmintic.herokuapp.com/search/",
+					"protocol": "https",
+					"host": [
+						"reservahotelesmintic",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"search",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://reservahotelesmintic.herokuapp.com/user/RewardPoints/camilo24/",
+					"protocol": "https",
+					"host": [
+						"reservahotelesmintic",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"user",
+						"RewardPoints",
+						"camilo24",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
